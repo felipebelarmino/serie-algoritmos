@@ -1,6 +1,6 @@
 ### Temporada 1 - Busca em listas (arrays).
 
-*Capítulo 1.2*: **Ache os numeros com digitos pares**
+*Capítulo 1.2*: **Ache os números com digitos pares**
 
 Dada uma lista de números inteiros, retorne quantos destes contém quantidade de dígitos **pares**.
 
@@ -78,8 +78,12 @@ function findNumbers(nums) {
 
 
 Obrigado por acompanhar a saga ;D
+
 Autor: Felipe Belarmino
+
 Linkedin: https://www.linkedin.com/in/felipe-belarmino
+
+Github: https://github.com/felipebelarmino/serie-algoritmos
 
 
 
