@@ -1,26 +1,26 @@
-// function findNumbers(nums) {
-//   const countEven = nums.filter(
-//     (num) => num.toString().split("").length % 2 === 0
-//   );
-//   return countEven.length;
-// }
+function findNumbers(nums) {
+  const countEven = nums.filter(
+    (num) => num.toString().split("").length % 2 === 0
+  );
+  return countEven.length;
+}
 
 const nums = [12, 345, 2, 6, 7896];
 
 console.log(findNumbers(nums));
 //87ms
 
-// function findNumbers(nums) {
-//   let evenNums = 0;
+function findNumbers(nums) {
+  let evenNums = 0;
 
-//   for (let indice = 0; indice < nums.length; indice += 1) {
-//     if (nums[indice].toString().split("").length % 2 === 0) {
-//       evenNums += 1;
-//     }
-//   }
+  for (let indice = 0; indice < nums.length; indice += 1) {
+    if (nums[indice].toString().split("").length % 2 === 0) {
+      evenNums += 1;
+    }
+  }
 
-//   return evenNums;
-// }
+  return evenNums;
+}
 //82ms
 
 function findNumbers(nums) {
